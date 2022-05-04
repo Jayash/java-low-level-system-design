@@ -4,6 +4,8 @@ Catalog of popular low level system design principle in Java
  
  ## The SOLID principles of Object Oriented Design include these five principles
  
+ https://www.oodesign.com/design-principles.html
+ 
  - S – Single Responsibility Principle. A Class should have a single responsibility.
  - O – Open/Closed Principle. Software entities should be open for extension but closed for modification.
  - L – Liskov Substitution Principle. Objects in a program should be replaceable by subclasses of same type without any adverse impact.
