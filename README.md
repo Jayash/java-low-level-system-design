@@ -7,9 +7,15 @@ Catalog of popular low level system design principle in Java
  https://www.oodesign.com/design-principles.html
  
  - S – Single Responsibility Principle. A Class should have a single responsibility.
+    - There should be only one reason for the class to change, reasons can be following
+       - Protocol changes
+       - Message format changes
+       - Communication Security changes etc...
  - O – Open/Closed Principle. Software entities should be open for extension but closed for modification.
  - L – Liskov Substitution Principle. Objects in a program should be replaceable by subclasses of same type without any adverse impact.
- - I – Interface Segregation Principle. Multiple client specific interfaces are preferable over single generic interface.
+    - We should be able to substitute base class object with child class object without altering behavioral/characteristics of the program 
+ - I – Interface Segregation Principle. Multiple client-specific interfaces are preferable over single generic interface.
+    - Client should not be forced to depend upon interfaces that they don't use
  - D – Dependency Inversion Principle. Program should depend on abstract entities. It should not depend on concrete implementation of an interface.
  
  ## Encapsulate what varies
